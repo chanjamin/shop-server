@@ -5,7 +5,7 @@ module.exports = {
     database: 'shop',
     prefix: 'shop_',
     encoding: 'utf8mb4',
-    host: '127.0.0.1',
+    host: '34.126.86.224',
     port: '3306',
     user: 'root',
     password: '135246-Abc',

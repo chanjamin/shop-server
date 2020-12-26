@@ -286,7 +286,7 @@ module.exports = class extends Base {
         };
         return this.success(infoData);
     }
-    async getAllCategory1Action() { // 我写的算法
+    async getAllCategory1Action() { //
         const model = this.model('category');
         const data = await model.where({
             is_show: 1,
@@ -315,7 +315,7 @@ module.exports = class extends Base {
         }
         return this.success(newData);
     }
-    async getAllCategoryAction() { // 晓玲的算法，她要
+    async getAllCategoryAction() { //
         const model = this.model('category');
         const data = await model.where({
             is_show: 1,
